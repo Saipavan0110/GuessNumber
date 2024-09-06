@@ -3,10 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guess The Number</title>
+    <title>GUESS THE NUMBER</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div>
+      <h1>GUESS THE NUMBER</h1>
+      <p>Enter a number between 1 & 100</p>
+      <input
+        class="Box"
+        type="number"
+        placeholder="Enter Your Number Here"
+        id="guess"
+      />
+      <button id="tap" onclick="checkGuess()">Check Number</button>
+      <p id="feedback"></p>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
